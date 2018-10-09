@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="description" content="We Want Tucker Wilkie for TCU Student Body President">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Tucker Wilkie</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.bundle.js"></script>
+    <script style="https://cdnjs.com/libraries/bulma"></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">    <link rel="shortcut icon" href="{{ url_for('static', filename='myfavicon.ico') }}">
+</head>
+<style>
+
+    body
+    {
+        font-family: Roboto, sans-serif;
+        background-color: #5271ff;
+    }
+
+</style>
+<body>
+
+<div style="height: 30vh; text-align: center;" class="row container">
+
+    <div class="col-4" style="height: 30vh;">
+        <img src="../static/we.png" alt="Tucker Wilkie" style="height: 30vh; width: 30vh;">
+    </div>
+
+    <div class="col-2" style="height: 30vh;">
+        <div style="height: 21vh;"></div>
+        <a href="#about" class="btn" style="background-color: #ff63b1; color: white;">About Me</a>
+    </div>
+
+    <div class="col-2" style="height: 30vh;">
+        <div style="height: 21vh;"></div>
+        <a href="#platform" class="btn" style="background-color: #ff63b1; color: white;">Platform</a>
+    </div>
+
+    <div class="col-2" style="height: 30vh;">
+        <div style="height: 21vh;"></div>
+        <a href="#vision" class="btn" style="background-color: #ff63b1; color: white;">Vision</a>
+    </div>
+
+    <div class="col-2" style="height: 30vh;">
+        <div style="height: 21vh;"></div>
+        <a href="#issues" class="btn" style="background-color: #ff63b1; color: white;">Issues</a>
+    </div>
+
+
+
+</div>
+
+<div class="container">
+
+    <div class="row" style="height: 70vh; overflow-y: scroll;">
+
+        <div class="col-12" id="about">
+
+            <div class="card">
+                <br>
+                <h4 style="color: #5271ff; text-align: left; padding-left: 20px;">About Me</h4>
+
+              <div class="card-body">
+                <div class="row container">
+
+                    <div class="col-4" style="text-align: center; color: #5271ff">
+
+                        <i class="fas fa-male" style="font-size: 4em;"></i>
+                        <hr>
+                        <p>For Individuals.</p>
+                        <br>
+                        <p>Tucker Wilkie is dedicated to protecting your rights as an individual.</p>
+                    </div>
+
+                    <div class="col-4" style="text-align: center; color: #5271ff">
+
+                        <i class="fas fa-users" style="font-size: 4em;"></i>
+                        <hr>
+                        <p>For the Community.</p>
+                        <br>
+                        <p>Tucker Wilkie is dedicated to protecting your rights as an community.</p>
+                    </div>
+
+                    <div class="col-4" style="text-align: center; color: #5271ff">
+
+                        <i class="fas fa-globe-americas" style="font-size: 4em;"></i>
+                        <hr>
+                        <p>For the World.</p>
+                        <br>
+                        <p>Tucker Wilkie is dedicated to protecting your rights as a world.</p>
+                    </div>
+
+                </div>
+              </div>
+            </div>
+
+        </div>
+
+        <div class="col-12" style="height: 5vh;"></div>
+
+        <div class="col-12" id="platform">
+            <div class="card">
+                <br>
+                <h4 style="color: #5271ff; text-align: left; padding-left: 20px;" class="card-title">Platform</h4>
+
+              <div class="card-body">
+
+                  <div class="row container">
+
+                      <div class="col-2"></div>
+
+                      <div class="col-8" style="text-align: center; color: #5271ff">
+                          <i class="fas fa-magic" style="font-size: 4em;"></i>
+                          <hr>
+                          <p>Magic in the Air</p>
+                          <br>
+                          <p>As your student body president I look forward to making your experience at TCU magical.</p>
+                      </div>
+
+                      <div class="col-2"></div>
+
+                  </div>
+
+              </div>
+            </div>
+        </div>
+
+        <div class="col-12" style="height: 5vh;"></div>
+
+        <div class="col-12" id="vision">
+
+            <div class="card">
+                <br>
+                <h4 style="color: #5271ff; text-align: center;" class="card-title">Vision</h4>
+
+              <div class="card-body">
+                Beto O’Rourke is a fourth-generation Texan, born and raised in El Paso. After graduating from Columbia University, Beto worked in New York for a few years before deciding to move back to his hometown and start a small technology company. El Paso wasn’t the most likely place to start a company like this, but thanks to the work of some really talented El Pasoans, the company was a success. Over the years Stanton Street hired dozens of people in high skill, high-wage jobs that one might not expect to see in a border community.
+Outside of work, Beto became deeply involved in the civic, business and community efforts in El Paso. He ran for El Paso City Council in 2005 and served for two terms before running for U.S. Congress in 2012, taking on an eight-term incumbent and winning. He knocked on thousands of doors and had real conversations, face-to-face, with the voters in El Paso.
+              </div>
+            </div>
+
+        </div>
+
+        <div class="col-12" style="height: 5vh;"></div>
+
+        <div class="col-12" id="issues">
+
+            <div class="card">
+                <br>
+                <h4 style="color: #5271ff; text-align: center;" class="card-title">Issues</h4>
+
+              <div class="card-body">
+                Beto O’Rourke is a fourth-generation Texan, born and raised in El Paso. After graduating from Columbia University, Beto worked in New York for a few years before deciding to move back to his hometown and start a small technology company. El Paso wasn’t the most likely place to start a company like this, but thanks to the work of some really talented El Pasoans, the company was a success. Over the years Stanton Street hired dozens of people in high skill, high-wage jobs that one might not expect to see in a border community.
+Outside of work, Beto became deeply involved in the civic, business and community efforts in El Paso. He ran for El Paso City Council in 2005 and served for two terms before running for U.S. Congress in 2012, taking on an eight-term incumbent and winning. He knocked on thousands of doors and had real conversations, face-to-face, with the voters in El Paso.
+              </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+</html>
